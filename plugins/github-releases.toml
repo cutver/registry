@@ -1,0 +1,11 @@
+name = "github-releases"
+description = "Renders release notes grouped by conventional commit type, with contributors, first-time contributors and a full-changelog link. Runs sandboxed with no network access."
+author = "cutver"
+tier = "official"
+repository = "https://github.com/cutver/plugins"
+capabilities = ["changelog.v1"]
+
+[[release]]
+version = "0.1.0"
+url = "https://github.com/cutver/plugins/releases/download/github-releases-v0.1.0/github-releases.wasm"
+sha256 = "a828cbabd247afdaf78fec358ae5a27271097c7c2ef6fc9ec0fe04af22edf841"
