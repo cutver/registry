@@ -1,0 +1,4 @@
+# Python bytecode from running the validator locally. CI regenerates nothing,
+# and these files should never enter the registry.
+__pycache__/
+*.py[cod]

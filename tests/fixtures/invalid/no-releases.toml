@@ -1,0 +1,6 @@
+name = "no-releases"
+description = "Declares no release table at all."
+author = "example-author"
+tier = "community"
+repository = "https://github.com/example/cutver-plugins"
+capabilities = ["changelog.v1"]

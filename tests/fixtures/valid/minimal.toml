@@ -1,0 +1,16 @@
+name = "minimal"
+description = "A minimal community plugin used to exercise the validator."
+author = "example-author"
+tier = "community"
+repository = "https://github.com/example/cutver-plugins"
+capabilities = ["manifest.v1"]
+
+[[release]]
+version = "0.1.0"
+url = "https://github.com/example/cutver-plugins/releases/download/minimal-v0.1.0/minimal.wasm"
+sha256 = "1111111111111111111111111111111111111111111111111111111111111111"
+
+[[release]]
+version = "0.2.0-rc.1"
+url = "https://github.com/example/cutver-plugins/releases/download/minimal-v0.2.0-rc.1/minimal.wasm"
+sha256 = "2222222222222222222222222222222222222222222222222222222222222222"

@@ -1,0 +1,11 @@
+name = "bad-capability"
+description = "Declares a capability that is not in the closed Cutver set."
+author = "example-author"
+tier = "community"
+repository = "https://github.com/example/cutver-plugins"
+capabilities = ["changelog.v1", "telemetry.v1"]
+
+[[release]]
+version = "0.1.0"
+url = "https://github.com/example/cutver-plugins/releases/download/bad-capability-v0.1.0/bad-capability.wasm"
+sha256 = "3333333333333333333333333333333333333333333333333333333333333333"

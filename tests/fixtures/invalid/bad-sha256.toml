@@ -1,0 +1,11 @@
+name = "bad-sha256"
+description = "Pins a digest that is too short and uses uppercase hex."
+author = "example-author"
+tier = "verified"
+repository = "https://github.com/example/cutver-plugins"
+capabilities = ["versioning.v1"]
+
+[[release]]
+version = "1.2.3"
+url = "https://github.com/example/cutver-plugins/releases/download/bad-sha256-v1.2.3/bad-sha256.wasm"
+sha256 = "ABCDEF"

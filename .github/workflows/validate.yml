@@ -1,0 +1,27 @@
+name: Validate Registry
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+# Validation only reads the repository.
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate entries
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Test the validator against fixtures
+        run: bash scripts/test_validate.sh
+
+      - name: Validate registry entries
+        run: |
+          shopt -s nullglob
+          entries=(plugins/*.toml)
+          python3 scripts/validate.py "${entries[@]}"

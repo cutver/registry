@@ -1,0 +1,11 @@
+name = "url-not-wasm"
+description = "Points at an archive rather than a .wasm artifact."
+author = "example-author"
+tier = "verified"
+repository = "https://github.com/example/cutver-plugins"
+capabilities = ["manifest.v1"]
+
+[[release]]
+version = "0.3.0"
+url = "https://github.com/example/cutver-plugins/releases/download/url-not-wasm-v0.3.0/url-not-wasm.tar.gz"
+sha256 = "5555555555555555555555555555555555555555555555555555555555555555"
