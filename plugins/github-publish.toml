@@ -6,6 +6,11 @@ repository = "https://github.com/cutver/plugins"
 capabilities = ["lifecycle.v1"]
 
 [[release]]
+version = "0.1.1"
+url = "https://github.com/cutver/plugins/releases/download/github-publish-v0.1.1/github-publish.wasm"
+sha256 = "78d9ebe0d80c97260fa65e79e0ca155389fc7383daf2d0285f81e4b874c98582"
+
+[[release]]
 version = "0.1.0"
 url = "https://github.com/cutver/plugins/releases/download/github-publish-v0.1.0/github-publish.wasm"
 sha256 = "dd14ccf19957d411c322ed1d419f5d5569f914d9fc63bb14340874b823c735d2"
